@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hermes Gaming Journal, el medio gamer numero 1 de LatinoAmerica. Noticias, tienda y mas!">
+    <meta name="keywords" content="Hermes, Gaming, Gamer, Diario, Gaming Journal, PS4, PlayStation, Xbox, Microsoft">
+    <title>Hermes Gaming Journal</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <header class="header-index"> -->
+        <nav class="header-index">
+            <p class="titulo h1"><img src="images/logo.png" alt="Logo"> Hermes Gaming Journal</p>
+
+            
+            <ul>
+                <li class="submenu">
+                    <ion-icon size="large" name="cart-sharp"></ion-icon>
+                    <div id="carrito">
+
+                        <table border="1" id="lista-carrito" class="lista-carrito">
+                            <thead >
+                                <tr>
+                                    <th class="titulo-carrito">Imagen</th>
+                                    <th class="titulo-carrito">Nombre</th>
+                                    <th class="titulo-carrito">Precio</th>
+                                    <th class="titulo-carrito">Cantidad</th>
+                                    <th class="titulo-carrito"></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                        <!-- <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a> -->
+                    </div>
+                </li>
+            </ul>
+            <ul class="link">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#computadoras">PC</a></li>
+                <li><a href="#consolas">Consolas</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+    <!-- </header> -->
+    <main>
+
+        <div class="card-container">
+            <div class="card" style="width: 20rem;" data-toggle="modal" data-target="#myModal">
+                <img src="images/consolas.jfif"  alt="...">
+                <div class="card-body">
+                    <h5 class="card-title tituloTarjeta"><a href="#">Guerra de Consolas mas encendida que nunca</a></h5>
+                    <p class="card-text textoTarjeta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;" data-toggle="modal" data-target="#mySecondModal">
+                <img src="images/descarga.jfif" alt="Nueva placa NVidia">
+                <div class="card-body">
+                    <h5 class="card-title tituloTarjeta"><a href="#">NVidia anuncia sus nuevas GPU</a></h5>
+                    <p class="card-text textoTarjeta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;" data-toggle="modal" data-target="#myThirdModal">
+                <img src="images/amongus.jfif" alt="Among Us exitoso">
+                <div class="card-body">
+                    <h5 class="card-title tituloTarjeta"><a href="#" a>Among Us segundo en ventas de Steam</a></h5>
+                    <p class="card-text textoTarjeta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <hr>
+    <br>
+    <section>
+        <p class="tituloIndex h2">PC</p>
+        <div class="container" id="computadoras">
+            <!-- <table class="imagenespc col-md-4">
+                <caption>Top Juegos PC</caption>
+                <tr>
+                    <td><img src="images/amongus.jfif" alt="Among Us exitoso"></td>
+                    <td><img src="images/horizon.jpg" alt="Among Us exitoso"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/csgo.jpg" alt="Among Us exitoso"></td>
+                    <td><img src="images/cyberpunk.jpg" alt="Among Us exitoso"></td>
+                </tr>
+
+            </table> -->
+
+            <br>
+            <div class="titulosPc">
+
+
+                <ul class="list-group col-md-8 titulosmall">
+                    <li class="list-group-item titulosmall">Titulo de noticia de pc</li>
+                    <li class="list-group-item titulosmall">Titulo de noticia de pc</li>
+                    <li class="list-group-item titulosmall">Titulo de noticia de pc</li>
+                    <li class="list-group-item titulosmall">Titulo de noticia de pc</li>
+                    <li class="list-group-item titulosmall">Titulo de noticia de pc</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section>
+        <p class="tituloIndex h2">Consolas</p>
+        <div class="container">
+            <form action="" method="">
+                <label for="PS4">PS4</label>
+                <input type="checkbox" name="PS4">
+                <label for="XBOX">Xbox</label>
+                <input type="checkbox" name="XBOX">
+                <label for="NINTENDO">Nintendo</label>
+                <input type="checkbox" name="NINTENDO">
+                <label for="TODO">Todo</label>
+                <input type="checkbox" name="TODO" checked>
+            </form>
+        </div>
+        <br>
+        <div class="card-container" id="consolas">
+            <div class="card" style="width: 20rem;" data-toggle="modal">
+                <img src="images/consolas.jfif" alt="Consolas">
+                <div class="card-body">
+                    <h5 class="card-title tituloTarjeta"><a href="#">Guerra de Consolas mas encendida que nunca</a></h5>
+                    <p class="card-text textoTarjeta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;" data-toggle="modal">
+                <img src="images/ps5.jpg" alt="Exclusivos PS5">
+                <div class="card-body">
+                    <h5 class="card-title tituloTarjeta"><a href="#">Los Nuevos Exclusivos PS5</a></h5>
+                    <p class="card-text textoTarjeta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;" data-toggle="modal">
+                <img src="images/amongus.jfif" alt="Among Us prox en PS4 y XBOX">
+                <div class="card-body">
+                    <h5 class="card-title tituloTarjeta"><a href="#" a>Among Us preparando su llegada a consolas</a></h5>
+                    <p class="card-text textoTarjeta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section>
+        <p class="tituloIndex h2">Tienda</p>
+        <div class="container tienda" id="tienda">
+            <div class="row fila-tienda top-buffer">
+                <div class="card card-tienda " id="store-card" data-id="1">
+                    <img src="images/dualshock-negro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="tituloProducto">DualShock 4</p>
+                        <p class="card-text" id="precioProducto">$8079</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="2">
+                    <img src="images/xboxonecontr_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="tituloProducto">Mando Xbox One</p>
+                        <p class="card-text" id="precioProducto">$7579</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="3">
+                    <img src="images/ps-vr.jpg" class="card-img-top" alt="...">
+                    <div class="card-body cuerpocard" style="color: black;">
+                        <p class="card-text" id="tituloProducto">PlayStation VR</p>
+                        <p class="card-text" id="precioProducto">$24599</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="4">
+                    <img src="images/series-s.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="tituloProducto">XBOX Series S</p>
+                        <p class="card-text" id="precioProducto">$65599</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card card-tienda" id="store-card" data-id="5">
+                    <img src="images/sudadera.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="tituloProducto">Sudadera HGS</p>
+                        <p class="card-text" id="precioProducto">$2459</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="6">
+                    <img src="images/mando-inalambrico-dualsense-ps5-2071021.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="tituloProducto">DualSense</p>
+                        <p class="card-text" id="precioProducto">$12569</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row fila-tienda top-buffer">
+                <div class="card card-tienda" id="store-card" data-id="7">
+                    <img src="images/taza.png" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="tituloProducto">Taza HGS</p>
+                        <p class="card-text" id="precioProducto">$569</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="8">
+                    <img src="images/front_large_extended.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="" id="tituloProducto">Remera HGS</p>
+                        <p class="card-text" id="precioProducto">$1219</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="8">
+                    <img src="images/ps5-shirt.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="" id="tituloProducto">Remera PS5</p>
+                        <p class="card-text" id="precioProducto">$1219</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="9">
+                    <img src="images/xbox-shirt.jpg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="" id="tituloProducto">Remera Xbox</p>
+                        <p class="card-text" id="precioProducto">$1219</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card card-tienda" id="store-card" data-id="10">
+                    <img src="images/Atalayar_ Xbox.png" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text" id="tituloProducto">Xbox Series X</p>
+                        <p class="card-text" id="precioProducto">$90199</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                <div class="card card-tienda" id="store-card" data-id="11">
+                    <img src="images/450_1000.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body" style="color: black;">
+                        <p class="card-text"  id="tituloProducto">PS5</p>
+                        <p class="card-text"  id="precioProducto">$90199</p>
+                        <button class="btn btn-primary btn-sm botonTienda" type="button" >
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section id="contacto">
+        <div class="container contacto">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseForm">
+                    Contactanos!
+            </button>
+            <hr>
+            <div class="collapse" id="collapseForm">
+                <div class="container form" id="contacto">
+                    <form class="contacto" action="" method="POST">
+                        <div class="form-group">
+                            <label class="sr-only" for="Nombre">Nombre</label>
+                            <input type="text" name="Nombre" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="">Mail</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+
+                                <input type="text" name="Mail" class="form-control" placeholder="Mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select name="Reclamo" class="form-control"><!--COMBO BOX-->
+                            <option value="P">Tuve un problema con un producto</option>
+                            <option value="D">Tienen un dato equivocado</option>
+                            <option value="O">Otro</option>
+                        </select>
+                        </div>
+                        <textarea name="textbox" placeholder="Escríbenos algo!" style="height:170px"></textarea> <br>
+                        <label for="SiNo">Desea suscribirse al newsletter?</label>
+                        <input type="Radio" name="SiNo"><br>
+                        <div class="form-row botonesForm">
+                            <input class="btn btn-primary btn-lg active" type="submit" value="Enviar">
+
+                            <input class="btn btn-secondary btn-lg active" type="submit" value="Borrar todo">
+                        </div>
+
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content noticia">
+
+
+                <div class="modal-header">
+                    <img src="images/consolas.jfif" class="card-img-top" alt="...">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+
+                <div class="modal-body">
+                    <h4 class="modal-title">Guerra de Consolas mas encendida que nunca</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt
+                        sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis
+                        dictum eget, tincidunt sit amet sem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt
+                        sit amet sem.</p>
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="mySecondModal">
+        <div class="modal-dialog">
+            <div class="modal-content noticia">
+
+
+                <div class="modal-header">
+                    <img src="images/descarga.jfif" class="card-img-top" alt="...">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+
+                <div class="modal-body">
+                    <h4 class="modal-title">NVidia anuncia sus nuevas GPU</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt
+                        sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis
+                        dictum eget, tincidunt sit amet sem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt
+                        sit amet sem.</p>
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myThirdModal">
+        <div class="modal-dialog">
+            <div class="modal-content noticia">
+
+
+                <div class="modal-header">
+                    <img src="images/amongus.jfif" class="card-img-top" alt="...">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+
+                <div class="modal-body">
+                    <h4 class="modal-title">Among Us segundo en ventas de Steam</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt
+                        sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis
+                        dictum eget, tincidunt sit amet sem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt
+                        sit amet sem.</p>
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!--JS de BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
